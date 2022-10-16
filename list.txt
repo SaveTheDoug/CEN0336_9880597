@@ -1,0 +1,8 @@
+README.md
+lista.txt
+.git
+bash_script.sh
+list.txt
+..
+.
+.
