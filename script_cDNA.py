@@ -21,6 +21,6 @@ if CDS1[0:3] == 'ATG': # averigua se CDS1 começa com ATG
 	if CDS2[-3:] == 'TAA' or CDS2[-3:] == 'TAG' or CDS2[-3:] == 'TGA': # verifica se CDS2 se encerra com algum dos codon desejados
                 print(CDS1 + CDS2)
 	else:
-                print('CDS2 não termina com um codon de fechamento')
+                print('CDS2 não finaliza com um codon de fechamento')
 else:
-        print('CDS1 não inicia com um codon de inicio')
+        print('CDS1 não começa com um codon de inicio')
